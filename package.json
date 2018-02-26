@@ -1,0 +1,31 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "New York Times Search with React",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "concurrently \"nodemon server.js\" \"cd client && yarn start\"",
+    "start": "node server.js"
+  },
+  "author": "Nick Sladden",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "filter-object": "^3.0.0",
+    "mongoose": "^5.0.6",
+    "request": "^2.83.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickoliasxii/ReactNewYorkTimes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickoliasxii/ReactNewYorkTimes/issues"
+  },
+  "homepage": "https://github.com/nickoliasxii/ReactNewYorkTimes#readme"
+}

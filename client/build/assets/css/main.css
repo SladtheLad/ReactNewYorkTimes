@@ -1,0 +1,14 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background: #313313;
+}
+
+.jumbotron{
+    background: url('https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.search-form {
+    padding: 10px;
+}
