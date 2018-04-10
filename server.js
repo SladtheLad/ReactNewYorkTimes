@@ -10,7 +10,7 @@ mongoose.Promise = require("bluebird");
 mongoose.connect(
     process.env.MONGODB_URI || "mongodb://localhost:27017/NYTArticles", 
     (err) => err ? 
-        console.log(`Sorr, could not connect to the database.`) : 
+        console.log(`Sorry, could not connect to the database.`) : 
         console.log(`Connected to database!`));
 
 const port = process.env.PORT || 4000;
