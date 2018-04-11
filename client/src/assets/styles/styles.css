@@ -39,8 +39,16 @@ body {
 
 }
 
+#home-header {
+  margin: 5rem 0 5rem 0;
+}
+
 .panel {
   background-color: rgba(144, 144, 144, 0.5);
+}
+
+.panel-heading {
+  padding-top: 3rem;
 }
 
 .search-form {
